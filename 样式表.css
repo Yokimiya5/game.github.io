@@ -1,0 +1,39 @@
+.feets{
+    width: 600px;
+}
+
+.feets li{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: linear-gradient(to right,white,black);
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.scary{
+    display: none;
+    position: fixed;
+    margin: auto;   
+    width: 1600px;
+    height: 100%;
+    z-index: 500;
+}
+
+h4{
+    cursor: pointer;
+}
+h4:hover{
+    color: red;
+}
